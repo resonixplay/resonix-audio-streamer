@@ -9,7 +9,7 @@ const app = express();
  */
 app.use(
   cors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'http://localhost:4200', 'https://resonixplay.github.io', 'https://resoninx.web.app'],
     methods: ['GET'],
     credentials: true
   })
